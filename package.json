@@ -22,10 +22,8 @@
   "homepage": "https://github.com/boJackEden/prismScrapper#readme",
   "dependencies": {
     "angular": "^1.5.8",
-    "body-parser": "^1.15.2",
     "cheerio": "^0.22.0",
     "express": "^4.14.0",
-    "jquery": "^3.1.0",
     "node": "0.0.0",
     "request": "^2.75.0"
   }
