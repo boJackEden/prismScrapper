@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="aboutMe">
+  <head>
+    <meta charset="utf-8">
+    <script src="angular/angular.min.js"></script>
+    <script src="jquery/dist/jquery.min.js"></script>
+    <script src="scrape.js"></script>
+    <title>Prism Scrapper</title>
+  </head>
+  <body ng-controller="AboutMeController as aboutMe">
+    <h2>Employees of Prism:</h2>
+    <ul>
+      <li ng-repeat="person in aboutMe.people">{{person.name}}, {{person.title}}</li>
+    </ul>
+  </body>
+
+</html>

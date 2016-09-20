@@ -2,7 +2,7 @@
   "name": "prism_scrapper",
   "version": "1.0.0",
   "description": "scrapper for prism",
-  "main": "scrape.js",
+  "main": "server.js",
   "scripts": {
     "test": "test it"
   },
@@ -21,6 +21,12 @@
   },
   "homepage": "https://github.com/boJackEden/prismScrapper#readme",
   "dependencies": {
-    "jquery": "^3.1.0"
+    "angular": "^1.5.8",
+    "body-parser": "^1.15.2",
+    "cheerio": "^0.22.0",
+    "express": "^4.14.0",
+    "jquery": "^3.1.0",
+    "node": "0.0.0",
+    "request": "^2.75.0"
   }
 }
