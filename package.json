@@ -1,0 +1,26 @@
+{
+  "name": "prism_scrapper",
+  "version": "1.0.0",
+  "description": "scrapper for prism",
+  "main": "scrape.js",
+  "scripts": {
+    "test": "test it"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boJackEden/prismScrapper.git"
+  },
+  "keywords": [
+    "prism",
+    "scrapper"
+  ],
+  "author": "bojackeden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boJackEden/prismScrapper/issues"
+  },
+  "homepage": "https://github.com/boJackEden/prismScrapper#readme",
+  "dependencies": {
+    "jquery": "^3.1.0"
+  }
+}
